@@ -28,7 +28,7 @@ export default function ContactPage() {
     <div className="min-h-screen gradient-page-bg">
       <Nav />
 
-      <section className="w-full py-16 gradient-hero-bg">
+      <section className="w-full py-15 gradient-hero-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#0A1F44' }}>
             Get In Touch
@@ -39,61 +39,61 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-15">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="fade-in-on-scroll">
-              <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ color: '#0A1F44' }}>
+              <h2 className="text-2xl md:text-3xl font-bold mb-5" style={{ color: '#0A1F44' }}>
                 Contact Information
               </h2>
-              <p className="text-sm md:text-lg mb-8 leading-relaxed" style={{ color: '#666' }}>
+              <p className="text-sm  mb-5 leading-relaxed" style={{ color: '#666' }}>
                 We're here to help. Reach out to us through any of the following channels, or fill out the form 
                 and we'll get back to you promptly.
               </p>
 
-              <div className="space-y-6">
+              <div className="space-y-3">
                 {/* Email */}
-                <div className="flex items-start gap-4 p-6 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
-                  <div className="w-12 h-12 rounded-lg gradient-icon-navy flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-start gap-4 p-3 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg gradient-icon-navy flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#0A1F44' }}>Email</h3>
-                    <a href="mailto:info@globeinform.com" className="text-lg hover:opacity-80 transition-opacity" style={{ color: '#1E4DB7' }}>
-                      info@globeinform.com
+                    <h3 className="font-semibold " style={{ color: '#0A1F44' }}>Email</h3>
+                    <a href="mailto:GlobeInform@gmail.com" className="text-sm  hover:opacity-80 transition-opacity" style={{ color: '#1E4DB7' }}>
+                      GlobeInform@gmail.com
                     </a>
                   </div>
                 </div>
 
                 {/* Phone */}
-                <div className="flex items-start gap-4 p-6 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
-                  <div className="w-12 h-12 rounded-lg gradient-icon-teal flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-start gap-4 p-3  rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg gradient-icon-teal flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#0A1F44' }}>Phone</h3>
-                    <a href="tel:+233241234567" className="text-lg hover:opacity-80 transition-opacity" style={{ color: '#1E4DB7' }}>
-                      +233 24 123 4567
+                    <h3 className="font-semibold" style={{ color: '#0A1F44' }}>Phone</h3>
+                      <a href="tel:+233247041099" className="text-sm hover:opacity-80 transition-opacity" style={{ color: '#1E4DB7' }}>
+                      +233 24 704 1099
                     </a>
                   </div>
                 </div>
 
                 {/* Address */}
-                <div className="flex items-start gap-4 p-6 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
-                  <div className="w-12 h-12 rounded-lg gradient-icon-navy flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-start gap-4 p-3 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg gradient-icon-navy flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#0A1F44' }}>Address</h3>
-                    <p className="text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
+                    <h3 className="font-semibold" style={{ color: '#0A1F44' }}>Address</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: '#1A1A1A' }}>
                       4 Saxel Street<br />
                       Accra, Ghana
                     </p>
@@ -101,15 +101,15 @@ export default function ContactPage() {
                 </div>
 
                 {/* Business Hours */}
-                <div className="flex items-start gap-4 p-6 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
-                  <div className="w-12 h-12 rounded-lg gradient-icon-teal flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-start gap-4 p-3 rounded-xl gradient-card hover:shadow-lg transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg gradient-icon-teal flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#0A1F44' }}>Business Hours</h3>
-                    <p className="text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
+                    <h3 className="font-semibold" style={{ color: '#0A1F44' }}>Business Hours</h3>
+                    <p className="text-sm leading-relaxed" style={{ color: '#1A1A1A' }}>
                       Monday - Friday: 8:00 AM - 6:00 PM<br />
                       Saturday: 9:00 AM - 2:00 PM<br />
                       Sunday: Closed
@@ -124,7 +124,7 @@ export default function ContactPage() {
               <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ color: '#0A1F44' }}>
                 Send Us a Message
               </h2>
-              <div className="p-8 rounded-2xl shadow-lg gradient-contact-card">
+              <div className="p-7 rounded-2xl shadow-lg gradient-contact-card">
             {formStatus === 'success' ? (
               <div className="text-center py-8">
                 <div className="w-16 h-16 bg-gradient-to-br from-[#00B3A4] to-[#1E4DB7] rounded-full flex items-center justify-center mx-auto mb-4">
@@ -140,7 +140,7 @@ export default function ContactPage() {
                     setFormData({ name: '', email: '', message: '' });
                     setFormError('');
                   }}
-                  className="px-6 py-2 rounded-lg font-semibold transition-all duration-300 text-white gradient-btn-primary"
+                  className="px-5 py-2 rounded-lg font-semibold transition-all duration-300 text-white gradient-btn-primary"
                 >
                   Send Another Message
                 </button>
@@ -181,7 +181,7 @@ export default function ContactPage() {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all"
                     style={{ borderColor: '#ddd' }}
                     placeholder="Your Name"
                     disabled={formStatus === 'loading'}
@@ -195,7 +195,7 @@ export default function ContactPage() {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all"
                     style={{ borderColor: '#ddd' }}
                     placeholder="your.email@example.com"
                     disabled={formStatus === 'loading'}
@@ -206,10 +206,10 @@ export default function ContactPage() {
                   <textarea
                     id="message"
                     required
-                    rows={6}
+                    rows={4}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all resize-none"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1E4DB7] focus:ring-offset-2 outline-none transition-all resize-none"
                     style={{ borderColor: '#ddd' }}
                     placeholder="Tell us about your project or inquiry..."
                     disabled={formStatus === 'loading'}
@@ -218,7 +218,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={formStatus === 'loading'}
-                  className="w-full px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
+                  className="w-full px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
                 >
                   {formStatus === 'loading' ? (
                     <span className="flex items-center justify-center">

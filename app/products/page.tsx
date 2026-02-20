@@ -116,40 +116,40 @@ export default function ProductsPage() {
       <Nav />
 
       {/* Page Header */}
-      <section className="w-full py-16 gradient-hero-bg">
+      <section className="w-full py-14 gradient-hero-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#0A1F44' }}>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0A1F44' }}>
             Our Products & Applications
           </h1>
-          <p className="text-xl max-w-3xl mx-auto" style={{ color: '#666' }}>
+          <p className="text-sm md:text-lg max-w-3xl mx-auto" style={{ color: '#666' }}>
             Comprehensive software solutions designed to streamline operations, enhance efficiency, and drive business growth across various industries.
           </p>
         </div>
       </section>
 
       {/* Products Grid */}
-      <section className="py-20">
+      <section className="py-15">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product, index) => (
               <div
                 key={product.id}
-                className="fade-in-on-scroll p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 gradient-card"
+                className="fade-in-on-scroll p-7 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 gradient-card"
               >
-                <div className="w-16 h-16 rounded-lg gradient-icon-navy flex items-center justify-center mb-6 text-white transition-transform duration-300 hover:rotate-12">
+                <div className="w-13 h-13 rounded-lg gradient-icon-navy flex items-center justify-center mb-4 text-white transition-transform duration-300 hover:rotate-12">
                   {product.icon}
                 </div>
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#0A1F44' }}>
+                <h3 className="text-lg md:text-xl font-bold mb-4" style={{ color: '#0A1F44' }}>
                   {product.name}
                 </h3>
-                <p className="leading-relaxed mb-6" style={{ color: '#666' }}>
+                <p className="text-sm leading-relaxed mb-4" style={{ color: '#666' }}>
                   {product.description}
                 </p>
-                <div className="mb-6">
+                <div className="mb-5">
                   <h4 className="font-semibold mb-3 text-sm uppercase tracking-wide" style={{ color: '#1E4DB7' }}>
                     Key Features
                   </h4>
-                  <ul className="space-y-2">
+                  <ul className="space-y-1">
                     {product.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-sm" style={{ color: '#666' }}>
                         <span className="mr-2" style={{ color: '#00B3A4' }}>✓</span>
@@ -159,7 +159,7 @@ export default function ProductsPage() {
                   </ul>
                 </div>
                 <Link href="/contact">
-                  <button className="w-full px-6 py-3 rounded-lg font-semibold transition-all duration-300 text-white gradient-btn-primary hover:shadow-lg transform hover:scale-105">
+                  <button className="w-full px-5 py-2 rounded-lg font-semibold transition-all duration-300 text-white gradient-btn-primary hover:shadow-lg transform hover:scale-105">
                     Request Demo
                   </button>
                 </Link>

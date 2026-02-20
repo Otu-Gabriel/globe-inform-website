@@ -44,13 +44,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-blue-200">
               <li>
-                <a href="mailto:info@globeinform.com" className="hover:text-white transition-colors">
-                  info@globeinform.com
+                <a href="mailto:GlobeInform@gmail.com" className="hover:text-white transition-colors">
+                  GlobeInform@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+233241234567" className="hover:text-white transition-colors">
-                  +233 24 123 4567
+                <a href="tel:+233247041099" className="hover:text-white transition-colors">
+                  +233 24 704 1099
                 </a>
               </li>
               <li>4 Saxel Street, Accra, Ghana</li>

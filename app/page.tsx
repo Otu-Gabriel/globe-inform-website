@@ -35,11 +35,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center fade-in-on-scroll">
             <h1
-              className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight animate-fade-in-up"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight animate-fade-in-up"
               style={{ color: '#0A1F44' }}
             >
               Globe Inform Computer Systems Ltd
-              <span className="block text-2xl md:text-3xl mt-2 bg-gradient-to-r from-[#1E4DB7] to-[#00B3A4] bg-clip-text text-transparent">(GICSL)</span>
+              <span className="block text-2xl md:text-2xl mt-2 bg-gradient-to-r from-[#1E4DB7] to-[#00B3A4] bg-clip-text text-transparent">(GICSL)</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{ color: '#1A1A1A' }}>
               Smart Solutions for Complex Problems
@@ -74,20 +74,20 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0A1F44' }}>
                 About Globe Inform
               </h2>
-              <p className="text-lg leading-relaxed mb-4" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed mb-4" style={{ color: '#1A1A1A' }}>
                 Globe Inform Computer Systems Ltd <span className=" bg-gradient-to-r from-[#1E4DB7] to-[#00B3A4] bg-clip-text text-transparent">(GICSL) </span> 
                 is a leading IT consulting and software project firm 
                 dedicated to delivering smart solutions for complex operational challenges. With over 15 years 
                 of experience, we specialize in transforming intricate problems into innovative, reliable 
                 technology solutions.
               </p>
-              <p className="text-lg leading-relaxed mb-6" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed mb-6" style={{ color: '#1A1A1A' }}>
                 Our expertise spans across insurance applications (life, non-life, pension, and finance), 
                 comprehensive tax management systems, and advanced database analytics. We combine deep 
                 industry knowledge with cutting-edge technology to help organizations streamline operations, 
                 enhance efficiency, and drive digital transformation.
               </p>
-              <p className="text-lg leading-relaxed mb-8" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed mb-8" style={{ color: '#1A1A1A' }}>
                 At Globe Inform, we believe in building lasting partnerships with our clients, understanding 
                 their unique needs, and delivering solutions that not only meet but exceed expectations. 
                 Our team of 50+ experts is committed to excellence, innovation, and timely delivery.
@@ -104,9 +104,9 @@ export default function Home() {
                   {/* Placeholder for professional image - Replace with actual image */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center p-8">
-                      {/* <svg className="w-32 h-32 mx-auto mb-4 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                      </svg> */}
+                        {/* <svg className="w-32 h-32 mx-auto mb-4 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> */}
                       <Image src="/globeinformlogo1.png" alt="Globe Inform" width={300} height={150} />
                       <p className="text-white/90 text-lg font-medium">Globe Inform Computer Systems Ltd
                       <span className="block  mt-2 bg-gradient-to-r from-[#e2e8f7] to-[#acdeda] bg-clip-text text-transparent">(GICSL)</span>
