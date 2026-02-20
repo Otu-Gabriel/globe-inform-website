@@ -50,12 +50,12 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <Link href="/services">
-                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary">
+                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-sm md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary">
                   Explore Our Services
                 </button>
               </Link>
               <Link href="/contact">
-                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-lg font-semibold border-2 transition-all duration-300 transform hover:scale-105 gradient-btn-outline border-[#1E4DB7] text-[#1E4DB7] bg-white">
+                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-sm md:text-lg font-semibold border-2 transition-all duration-300 transform hover:scale-105 gradient-btn-outline border-[#1E4DB7] text-[#1E4DB7] bg-white">
                   Contact Us
                 </button>
               </Link>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="fade-in-on-scroll">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0A1F44' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0A1F44' }}>
                 About Globe Inform
               </h2>
               <p className="text-lg leading-relaxed mb-4" style={{ color: '#1A1A1A' }}>
@@ -93,7 +93,7 @@ export default function Home() {
                 Our team of 50+ experts is committed to excellence, innovation, and timely delivery.
               </p>
               <Link href="/about">
-                <button className="px-8 py-4 rounded-lg text-lg font-semibold text-white gradient-btn-primary transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-sm md:text-lg font-semibold text-white gradient-btn-primary transition-all duration-300 transform hover:scale-105 shadow-lg">
                   Learn More About Us
                 </button>
               </Link>
