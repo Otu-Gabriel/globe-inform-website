@@ -35,27 +35,27 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center fade-in-on-scroll">
             <h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fade-in-up"
+              className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight animate-fade-in-up"
               style={{ color: '#0A1F44' }}
             >
               Globe Inform Computer Systems Ltd
-              <span className="block text-3xl mt-2 bg-gradient-to-r from-[#1E4DB7] to-[#00B3A4] bg-clip-text text-transparent">(GICSL)</span>
+              <span className="block text-2xl md:text-3xl mt-2 bg-gradient-to-r from-[#1E4DB7] to-[#00B3A4] bg-clip-text text-transparent">(GICSL)</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{ color: '#1A1A1A' }}>
               Smart Solutions for Complex Problems
             </p>
-            <p className="text-lg mb-12 max-w-2xl mx-auto animate-fade-in-up" style={{ color: '#666' }}>
+            <p className="text-sm md:text-lg mb-12 max-w-2xl mx-auto animate-fade-in-up" style={{ color: '#666' }}>
               Leading IT consulting and software development firm specializing in insurance applications,
               tax systems, and database analytics. We transform complex challenges into innovative solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <Link href="/services">
-                <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary">
+                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-white gradient-btn-primary">
                   Explore Our Services
                 </button>
               </Link>
               <Link href="/contact">
-                <button className="px-8 py-4 rounded-lg text-lg font-semibold border-2 transition-all duration-300 transform hover:scale-105 gradient-btn-outline border-[#1E4DB7] text-[#1E4DB7] bg-white">
+                <button className="px-7 py-3 md:px-8 md:py-4 rounded-lg text-lg font-semibold border-2 transition-all duration-300 transform hover:scale-105 gradient-btn-outline border-[#1E4DB7] text-[#1E4DB7] bg-white">
                   Contact Us
                 </button>
               </Link>

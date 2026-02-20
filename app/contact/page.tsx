@@ -44,10 +44,10 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="fade-in-on-scroll">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#0A1F44' }}>
+              <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ color: '#0A1F44' }}>
                 Contact Information
               </h2>
-              <p className="text-lg mb-8 leading-relaxed" style={{ color: '#666' }}>
+              <p className="text-sm md:text-lg mb-8 leading-relaxed" style={{ color: '#666' }}>
                 We're here to help. Reach out to us through any of the following channels, or fill out the form 
                 and we'll get back to you promptly.
               </p>
@@ -121,7 +121,7 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="fade-in-on-scroll">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8" style={{ color: '#0A1F44' }}>
+              <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ color: '#0A1F44' }}>
                 Send Us a Message
               </h2>
               <div className="p-8 rounded-2xl shadow-lg gradient-contact-card">
