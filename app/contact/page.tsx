@@ -33,7 +33,7 @@ export default function ContactPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#0A1F44' }}>
             Get In Touch
           </h1>
-          <p className="text-xl max-w-2xl mx-auto" style={{ color: '#666' }}>
+          <p className="text-sm md:text-lg max-w-2xl mx-auto" style={{ color: '#666' }}>
             Ready to transform your business? We would love to hear from you.
           </p>
         </div>

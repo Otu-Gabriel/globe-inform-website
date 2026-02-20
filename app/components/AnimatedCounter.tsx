@@ -66,7 +66,7 @@ export default function AnimatedCounter({
   }, [isVisible, end, duration]);
 
   return (
-    <span id={`counter-${end}`} className="text-5xl md:text-6xl font-bold">
+    <span id={`counter-${end}`} className="text-4xl md:text-5xl font-bold">
       {prefix}{count.toLocaleString()}{suffix}
     </span>
   );

@@ -58,7 +58,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold mb-4" style={{ color: '#0A1F44' }}>
                 Our Company
               </h3>
-              <p className="text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
                 Globe Inform Computer Systems Ltd (GICSL) is a leading IT consulting and software project firm dedicated to delivering smart solutions for complex operational challenges. With over 15 years of experience, we specialize in transforming intricate problems into innovative, reliable technology solutions.
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold mb-4" style={{ color: '#0A1F44' }}>
                 Our Expertise
               </h3>
-              <p className="text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
                 Our expertise spans across insurance applications (life, non-life, pension, and finance), comprehensive tax management systems, and advanced database analytics. We combine deep industry knowledge with cutting-edge technology to help organizations streamline operations, enhance efficiency, and drive digital transformation.
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold mb-4" style={{ color: '#0A1F44' }}>
                 Our Commitment
               </h3>
-              <p className="text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
+              <p className="text-sm md:text-lg leading-relaxed" style={{ color: '#1A1A1A' }}>
                 At Globe Inform, we believe in building lasting partnerships with our clients, understanding their unique needs, and delivering solutions that not only meet but exceed expectations. Our team of 50+ experts is committed to excellence, innovation, and timely delivery.
               </p>
             </div>
@@ -96,27 +96,27 @@ export default function AboutPage() {
       <section className="py-20 relative gradient-section-stats">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-on-scroll">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Our Impact</h2>
-            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Impact</h2>
+            <p className="text-sm md:text-lg text-blue-200 max-w-2xl mx-auto">
               Numbers that speak to our commitment and expertise
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center fade-in-on-scroll p-6 rounded-xl hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
               <AnimatedCounter end={500} suffix="+" />
-              <p className="text-blue-200 mt-4 text-lg font-medium">Projects Completed</p>
+              <p className="text-blue-200 mt-4 text-sm md:text-lg font-medium">Projects Completed</p>
             </div>
             <div className="text-center fade-in-on-scroll p-6 rounded-xl hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
               <AnimatedCounter end={200} suffix="+" />
-              <p className="text-blue-200 mt-4 text-lg font-medium">Happy Clients</p>
+              <p className="text-blue-200 mt-4 text-sm md:text-lg font-medium">Happy Clients</p>
             </div>
             <div className="text-center fade-in-on-scroll p-6 rounded-xl hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
               <AnimatedCounter end={15} suffix="+" />
-              <p className="text-blue-200 mt-4 text-lg font-medium">Years Experience</p>
+              <p className="text-blue-200 mt-4 text-sm md:text-lg font-medium">Years Experience</p>
             </div>
             <div className="text-center fade-in-on-scroll p-6 rounded-xl hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
               <AnimatedCounter end={50} suffix="+" />
-              <p className="text-blue-200 mt-4 text-lg font-medium">Expert Team</p>
+              <p className="text-blue-200 mt-4 text-sm md:text-lg font-medium">Expert Team</p>
             </div>
           </div>
         </div>
