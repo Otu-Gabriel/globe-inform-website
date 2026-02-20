@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+:root {
+  --primary-navy: #0A1F44;
+  --secondary-blue: #1E4DB7;
+  --accent-teal: #00B3A4;
+  --background-gray: #F4F6F9;
+  --text-charcoal: #1A1A1A;
+  --background: #F4F6F9;
+  --foreground: #1A1A1A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+/* Scroll animations */
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Matching gradient utilities - Enterprise Trust Blue palette */
+.gradient-page-bg {
+  background: linear-gradient(135deg, #F4F6F9 0%, #e8ecf4 25%, #dce4f0 50%, #e8ecf4 75%, #F4F6F9 100%);
+  background-attachment: fixed;
+}
+
+.gradient-hero-bg {
+  background: linear-gradient(135deg, #F4F6F9 0%, #e0e8f5 40%, #d0dcef 70%, #e8ecf4 100%);
+}
+
+.gradient-btn-primary {
+  background: linear-gradient(135deg, #1E4DB7 0%, #0A1F44 50%, #1E4DB7 100%);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  color: white;
+  transition: background-position 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gradient-btn-primary:hover {
+  background-position: 100% 50%;
+  box-shadow: 0 10px 25px rgba(10, 31, 68, 0.35);
+}
+
+.gradient-btn-outline {
+  transition: all 0.4s ease;
+}
+
+.gradient-btn-outline:hover {
+  background: linear-gradient(135deg, #1E4DB7 0%, #00B3A4 100%) !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: 0 8px 20px rgba(30, 77, 183, 0.3);
+}
+
+.gradient-card {
+  background: linear-gradient(145deg, #ffffff 0%, #F4F6F9 50%, #e8ecf4 100%);
+  border: 1px solid rgba(30, 77, 183, 0.08);
+}
+
+.gradient-card-teal {
+  background: linear-gradient(145deg, #f0fdfc 0%, #e6faf8 50%, #d5f5f2 100%);
+  border: 1px solid rgba(0, 179, 164, 0.15);
+}
+
+.gradient-card-blue {
+  background: linear-gradient(145deg, #f0f4fc 0%, #e4ebf9 50%, #d8e2f5 100%);
+  border: 1px solid rgba(30, 77, 183, 0.12);
+}
+
+.gradient-section-navy {
+  background: linear-gradient(135deg, #0A1F44 0%, #1a3568 40%, #1E4DB7 70%, #0A1F44 100%);
+  background-size: 200% 200%;
+}
+
+/* Stats section: rich navy with subtle teal accent and depth */
+.gradient-section-stats {
+  background: linear-gradient(135deg, #7d99cb 0%, #5b7dbc 40%, #4e70be 70%, #40a4b9 100%);
+}
+.gradient-section-about {
+  background: linear-gradient(145deg, #0A1F44 0%, #1E4DB7 50%, #0d2d5c 100%);
+}
+
+.gradient-contact-card {
+  background: linear-gradient(145deg, #F4F6F9 0%, #e8ecf4 40%, #e0e8f5 100%);
+  border: 1px solid rgba(30, 77, 183, 0.1);
+}
+
+.gradient-footer {
+  background: linear-gradient(180deg, #0A1F44 0%, #15325c 50%, #0A1F44 100%);
+}
+
+.gradient-icon-navy {
+  background: linear-gradient(135deg, #0A1F44 0%, #1E4DB7 100%);
+}
+
+.gradient-icon-teal {
+  background: linear-gradient(135deg, #1E4DB7 0%, #00B3A4 100%);
+}
